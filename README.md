@@ -25,9 +25,9 @@ docker run -d -p 8000:8000 --name flask-app sarthak273a/flask-app
 
 3. Test the endpoints:
 ```bash
-curl http://localhost:8000/health
-curl http://localhost:8000/api/v1/hello
-curl http://localhost:8000/api/v1/version
+curl http://localhost:5000/health
+curl http://localhost:5000/api/v1/hello
+curl http://localhost:5000/api/v1/version
 ```
 
 ## CI/CD Pipeline
